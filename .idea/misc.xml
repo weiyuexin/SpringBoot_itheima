@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="E:/桌面" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_07_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_05_bybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_06_mybatis_plus/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
