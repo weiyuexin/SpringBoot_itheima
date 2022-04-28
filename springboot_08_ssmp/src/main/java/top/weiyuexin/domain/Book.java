@@ -9,7 +9,7 @@ import lombok.Setter;
 //lombok
 @Data  // = @Getter+@Setter
 public class Book {
-//    @TableId(value = "id",type = IdType.AUTO)
+    @TableId(value = "id",type = IdType.AUTO)
     private Integer id;
     private String type;
     private String name;

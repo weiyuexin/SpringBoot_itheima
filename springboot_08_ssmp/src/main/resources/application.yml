@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8082
   servlet:
     context-path: /
 spring:
@@ -9,8 +9,14 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm_db?useUnicode=true&characterEncoding=UTF-8&useJDBC49CompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
       username: root
       password: root
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
 # mp配置
 mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #日志打印到控制台
